@@ -1,0 +1,29 @@
+Package: mouseRef
+Title: Mouse Reference Data For The RAPToR Package
+Version: 0.1.0
+Authors@R: c(
+  person("Romain", "Bulteau", email = "romain.bulteau@ens-lyon.fr",
+    role = c("aut", "cre")),
+  person("Mirko", "Francesconi", email = "mirko.francesconi@ens-lyon.fr", 
+    role="aut"))
+Description: mouseRef is a data package that holds the mouse reference data for the RAPToR package. 
+  This corresponds to M. musculus embryonic development only, for the moment. 
+  The package also holds the `prep_x` functions, internally called by the RAPToR package for interpolation.
+Depends: 
+  R (>= 3.4.0)
+Imports:
+  RAPToR,
+  Rdpack,
+  utils,
+  rlang
+License: file LICENSE
+Encoding: UTF-8
+LazyData: true
+Suggests:
+  Biobase,
+  GEOquery,
+  biomaRt,
+  ggplot2
+RdMacros: Rdpack
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.0
