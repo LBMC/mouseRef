@@ -17,5 +17,9 @@ install.packages("devtools")
 <hr>
 
 ## Update info
+### v0.2
+ - Built a function factory to simplify ref. building code
+ - Added reference metadata to comply with RAPToR v1.2 update.
+ - Added time range/unit info in list_refs 
 ### v0.1
  - Created the data package. 
