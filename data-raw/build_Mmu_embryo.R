@@ -1,4 +1,4 @@
-sapply(c("utils", "biomaRt", "Biobase", "GEOQuery", "limma", "RAPToR"), 
+sapply(c("utils", "biomaRt", "Biobase", "GEOquery", "limma", "RAPToR"), 
        requireNamespace, quietly = T)
 
 
@@ -47,7 +47,12 @@ Mmu_embryo <- list(g = gdat,
                    geim_params = list(formula = "X ~ s(age, bs = 'cr')",
                                       method = "gam",
                                       dim_red = "ica",
-                                      nc = nc)
+                                      nc = nc),
+                   t.unit = "days post-coïtus",
+                   cov.levels = NULL,
+                   metadata = list("organism" = "M. musculus",
+                                   "profiling" = "whole-organism, single-embryo",
+                                   "technology" = "Microarray")
 )
 
 
