@@ -10,7 +10,7 @@ Description: mouseRef is a data package that holds the mouse reference data for 
   This corresponds to M. musculus embryonic development only, for the moment. 
   The package also holds the `prep_x` functions, internally called by the RAPToR package for interpolation.
 Depends: 
-  R (>= 3.4.0)
+  R (>= 3.5.0)
 Imports:
   RAPToR (>= 1.2.0),
   Rdpack,
