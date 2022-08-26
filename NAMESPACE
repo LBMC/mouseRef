@@ -2,7 +2,9 @@
 
 export(.plot_refs)
 export(.prepref_Mmu_embryo)
+export(.prepref_skel)
 importFrom(RAPToR,ge_im)
+importFrom(RAPToR,make_ref)
 importFrom(Rdpack,reprompt)
 importFrom(rlang,.data)
 importFrom(stats,predict)
